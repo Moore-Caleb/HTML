@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Users</title>
+
+</head>
+
+<nav class="navbar navbar-expand-sm bg-info navbar-dark">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="create-user.html">Users</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+        <form class="form-inline" action="/action_page.php">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+        </form>
+    </ul>
+</nav>
+
+
+<body>
+    <h1>Create users page</h1>
+    <button><a href="index.html">home</a></button>
+    <button><a href="Users.php">users</a></button>
+    <br>
+    <br>
+    <br>
+    <form action="/users.php">
+        <label for="fname">User name:</label><br>
+        <input type="text" id="username" name="username" value=""><br>
+        <label for="lname">Password:</label><br>
+        <input type="text" id="password" name="password" value=""><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
